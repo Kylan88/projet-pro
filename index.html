@@ -2,108 +2,123 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Boutique</title>
 </head>
-
-    <body>
-        <nav class="header">
-        <div>
+<body>
+    <div class="background-image">
+        <div class="contenant">
+    <nav class="header">
+        <div class="logo"><img src="img/logoCVY.jpg" alt="Logo"></div>  
+        <div class="nav-left">
             <a href="#">Accueil</a>
             <a href="#">Boutique</a>
-            <div class="search-bar">
-                <input type="text" placeholder="Recherche...">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Recherche..."> 
+        </div>
+        <div class="nav-right"> 
             <a href="#">A propos</a>
-            <a href="#">Connexion</a>
+            <a href="#">Connexion</a>           
+        </div>
+        <div>
+            <img src="images/shopping-cart.png" alt="shopping-cart">
         </div>
     </nav>
-    <section>
-        <a><img src="images/IMG-05.jpg" alt="Panier" ></a>
+    <section class="hero">
+        <img src="images/IMG-05.jpg" alt="Hero Image">
     </section>
-        <div class="services">
-            <h2>Autres services</h2>
-            <div  class="service-list">
-                <div class="service-item">
-                    <img src="images/IMG-06.jpg" alt="Maintenance Informatique">
-                    <p>Maintenance Informatique</p>
-                </div>
-                <div class="service-item">
-                    <img src="images/IMG-02.jpg" alt="Développement Web">
-                    <p>Développement Web</p>
-                </div>
-                <div class="service-item">
-                    <img src="images/IMG-04.jpg" alt="Architecture Construction">
-                    <p>Architecture Construction</p>
-                </div>
-                <div class="service-item">
-                    <img src="images/IMG-03.jpg" alt="Agriculture et conseils">
-                    <p>Agriculture et conseils</p>
-                </div>
-                <div class="service-item">
-                    <img src="images/IMG-07.jpg" alt="Elevage de volailles">
-                    <p>Elevage de volailles</p>
-                </div>
-    
-        <div class="best-sellers">
-            <h2>Nos Meilleures ventes</h2>
-            <div class="product-list">
-                <div class="product-item">
-                    <img src="kit.png" alt="Kit du constructeur débutant">
-                    <p>Kit du constructeur débutant</p>
-                    <p>Un kit contenant des matériaux de base pour ...</p>
-                    <p>50 000 Fcfa</p>
-                    <button>Ajouter au panier</button>
-                </div>
-                <div class="product-item">
-                    <img src="kit.png" alt="Kit du constructeur débutant">
-                    <p>Kit du constructeur débutant</p>
-                    <p>Un kit contenant des matériaux de base pour ...</p>
-                    <p>50 000 Fcfa</p>
-                    <button>Ajouter au panier</button>
-                </div>
-                <div class="product-item">
-                    <img src="kit.png" alt="Kit du constructeur débutant">
-                    <p>Kit du constructeur débutant</p>
-                    <p>Un kit contenant des matériaux de base pour ...</p>
-                    <p>50 000 Fcfa</p>
-                    <button>Ajouter au panier</button>
-                </div>
-                <div class="product-item">
-                    <img src="kit.png" alt="Kit du constructeur débutant">
-                    <p>Kit du constructeur débutant</p>
-                    <p>Un kit contenant des matériaux de base pour ...</p>
-                    <p>50 000 Fcfa</p>
-                    <button>Ajouter au panier</button>
-                </div>
-                <div>
-                    <img src="kit.png" alt="Kit du constructeur débutant">
-                    <p>Kit du constructeur débutant</p>
-                    <p>Un kit contenant des matériaux de base pour ...</p>
-                    <p>50 000 Fcfa</p>
-                    <button>Ajouter au panier</button>
-                </div>
-            <button style="display:block; margin:30px auto; padding:8px 70px; background-color:rgba(255, 251, 0, 0.925); border:none; border-radius:15px;">Voir plus</button>
+    <div class="services">
+        <h2>Autres services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <img src="images/IMG-06.jpg" alt="Maintenance Informatique">
+                <a href="#">Maintenance Informatique</a>
+            </div>
+            <div class="service-item">
+                <img src="images/IMG-02.jpg" alt="Développement Web">
+                <a href="#">Développement Web</a>
+            </div>
+            <div class="service-item">
+                <img src="images/IMG-04.jpg" alt="Architecture Construction">
+                <a href="#">Architecture Construction</a>
+            </div>
+            <div class="service-item">
+                <img src="images/IMG-03.jpg" alt="Agriculture et conseils">
+                <a href="#">Agriculture et conseils</a>
+            </div>
+            <div class="service-item">
+                <img src="images/IMG-07.jpg" alt="Elevage de volailles">
+                <a href="#">Elevage de volailles</a> 
+            </div>
         </div>
-    
-        <footer>
-            <div>
-                <h3>Service client</h3>
-                <p>Ibique recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrem adventu cohortium...</p>
+    </div>
+    <section>
+    <div class="best-sellers">
+        <h2>Nos Meilleures ventes</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="images/IMG-08.jpg" alt="Kit du constructeur débutant">
+                <p><strong>kit du constructeur débutant</strong></p>
+                <p>Un kit contenant des matériaux de base pour ...</p>
+                <p>50 000 Fcfa</p>
+                <button>Ajouter au panier<img src="images/shopping-cart.png" alt="shopping-cart"></button>
             </div>
-            <div>
-                <h3>A propos</h3>
-                <p>Ibique recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrem adventu cohortium...</p>
+            <div class="product-item">
+                <img src="images/IMG-08.jpg" alt="Kit du constructeur débutant">
+                <p><strong>kit du constructeur débutant</strong></p>
+                <p>Un kit contenant des matériaux de base pour ...</p>
+                <p>50 000 Fcfa</p>
+                <button>Ajouter au panier<img src="images/shopping-cart.png" alt="shopping-cart"></button>
+            </div> 
+            <div class="product-item">
+                <img src="images/IMG-08.jpg" alt="Kit du constructeur débutant">
+                <p><strong>Kit du constructeur débutant</strong></p>
+                <p>Un kit contenant des matériaux de base pour ...</p>
+                <p>50 000 Fcfa</p>
+                <button>Ajouter au panier<img src="images/shopping-cart.png" alt="shopping-cart"></button>
             </div>
-            <div>
-                <h3>Nous contacter</h3>
-                <p>Ibique recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrem adventu cohortium...</p>
+            <div class="product-item">
+                <img src="images/IMG-08.jpg" alt="Kit du constructeur débutant">
+                <p><strong>Kit du constructeur débutant</strong></p>
+                <p>Un kit contenant des matériaux de base pour ...</p>
+                <p>50 000 Fcfa</p>
+                <button>Ajouter au panier<img src="images/shopping-cart.png" alt="shopping-cart"></button>
             </div>
-            <div>
-                <h3>Nos spécialités</h3>
-                <p>Ibique recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrem adventu cohortium...</p>
+            <div class="product-item">
+                <img src="images/IMG-08.jpg" alt="Kit du constructeur débutant">
+                <p><strong>Kit du constructeur débutant</strong></p>
+                <p>Un kit contenant des matériaux de base pour ...</p>
+                <p>50 000 Fcfa</p>
+                <button>Ajouter au panier<img src="images/shopping-cart.png" alt="shopping-cart"></button>
             </div>
+        </div>
+            <div>
+                <button class="voir-plus">Voir plus</button>
+            </div>
+        
+    </section>
+    <footer class="bottom-page">
+        <div class="footer-section">
+            <h3>Service client</h3>
+            <p>Ibique recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrem adventu cohortium...</p>
+        </div>
+        <div class="footer-section">
+            <h3>A propos</h3>
+            <p>Ibique recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrem adventu cohortium...</p>
+        </div>
+        <div class="footer-section">
+            <h3>Nous contacter</h3>
+            <p>Ibique recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrem adventu cohortium...</p>
+        </div>
+        <div class="footer-section">
+            <h3>Nos spécialités</h3>
+            <p>Ibique recreati et quiete, postquam abierat timor, vicos opulentos adorti equestrem adventu cohortium...</p>
         </div>
     </footer>
+        </div>
+</div>
 </body>
 </html>
